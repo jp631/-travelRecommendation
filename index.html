@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Travel Recommendation</title>
+        <link rel="stylesheet" href="travel_recommendation.css" />
+    </head>
+    <body>
+        <nav>
+            <h1>Travel<span>-R</span></h1>
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#about"> About</a></li>
+                <li><a href="#contactUs"> Contact Us</a></li>
+            </ul>
+            <span class="search">
+                <input type="search" id="search_input" /> <button type="search" id="search_btn">Search</button
+                ><button type="reset" id="reset_btn">Reset</button>
+            </span>
+        </nav>
+
+        <section class="hero" id="home">
+            <div id="displayCity"> </div>
+            <h1>Uncover Your Perfect Getaway</h1>
+
+            <p>
+                Discover the world’s most beautiful destinations and let us help
+                you find the perfect escape. Whether you’re seeking relaxation,
+                adventure, or a little of both, your dream getaway is just a
+                click away.
+            </p>
+            <button class="actionBtn">Book Now</button>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                <span>
+                    Travel-R is your premier travel partner dedicated to
+                    crafting unforgettable journeys around the world. With
+                    personalized service and expert guidance, we turn your
+                    travel dreams into reality. Whether you're seeking
+                    adventure, relaxation, or cultural immersion, our team is
+                    here to make it happen.
+                    <br >
+                </span>
+                <span>
+                    Our mission is to provide you with the best travel
+                    experiences, ensuring that every trip is a memorable
+                    adventure. We understand that travel is more than just
+                    visiting new places; it's about creating lasting memories
+                    and connecting with the world.
+                    <br >
+                </span>
+                
+                <span>
+                    We are dedicated to helping you find the perfect travel
+                    destination. Our team of experts scours the globe to bring
+                    you the best recommendations, ensuring you have an
+                    unforgettable experience.
+                </span>
+            </p>
+
+            <h3>Meet The Team</h3>
+            <aticle class="team-container">
+                  <div class="team-card">
+                    <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs=" alt="Emma Collins" class="team-photo" />
+                    <h3 class="team-name">Emma Collins</h3>
+                    <p class="role">Founder & CEO</p>
+                    <p class="description">Emma leads Wanderlust Voyages with a passion for inspiring travel and creating unforgettable experiences worldwide.</p>
+                  </div>
+
+
+                  <div class="team-card">
+                    <img src="https://img.freepik.com/premium-photo/smiling-indian-man-working-laptop-office_922936-30863.jpg" alt="Jason Lee" class="team-photo" />
+                    <h3 class="team-name">Jason Lee</h3>
+                    <p class="role">Senior Travel Consultant</p>
+                    <p class="description">Jason specializes in crafting unique itineraries and uncovering hidden gems to make every journey special.</p>
+                  </div>
+                </div>
+
+
+                  <div class="team-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1683134129165-b719cd641b76?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d29tYW4lMjBvZmZpY2V8ZW58MHx8MHx8fDA%3D" alt="Priya Patel" class="team-photo" />
+                    <h3 class="team-name">Priya Patel</h3>
+                    <p class="role">Marketing Manager</p>
+                    <p class="description">Priya combines creativity with strategy to connect with clients and promote our vibrant travel community.</p>
+                  </div>
+            </aticle>
+            
+        </section>
+
+        <section id="contactUs">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any inquiries or to start planning your dream vacation.</p>
+
+              <form action="#" method="POST" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+              </form>
+        </section>
+        <footer>
+            <p>&copy; 2023 Jprophete Travel-R. All rights reserved.</p>
+        </footer>
+
+        <script src="travel_recommendation.js"></script> -
+
+    </body>
+</html>
